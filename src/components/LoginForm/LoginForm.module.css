@@ -1,0 +1,31 @@
+.LoginForm {
+  width: 30vw;
+  height: 350px;
+  padding: 20px;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  align-content: center;
+  justify-items: center;
+  gap: 30px;
+
+  background: #ffffff10;
+}
+
+.Title {
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.Button {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.Error {
+  min-height: 30px;
+  color: #ff5c5c;
+}

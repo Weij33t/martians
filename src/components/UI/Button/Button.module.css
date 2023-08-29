@@ -1,0 +1,7 @@
+.Button {
+  width: 200px;
+}
+
+.Button:focus {
+  outline: var(--purple);
+}
