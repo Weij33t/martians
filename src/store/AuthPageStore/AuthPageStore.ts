@@ -9,11 +9,11 @@ export const AuthPageStore: IAuthPageStoreModel = {
     try {
       return await authApi.login(data);
     } catch (e) {
-      if (!alertDisabled) {
-        alert('Custom notification: босс все пропало');
-        alertDisabled = confirm('Отключить алерт на ошибки?');
-      }
-      throw new Error('Ошибка запроса');
+      // if (!alertDisabled) {
+      //   alert('Custom notification: босс все пропало');
+      //   alertDisabled = confirm('Отключить алерт на ошибки?');
+      // }
+      console.log('Ошибка запроса');
     }
   },
 };
